@@ -10,5 +10,9 @@ chai.use(chaiHttp);
 // Convert an invalid number AND unit such as 3/7.2/4kilomegagram: GET request to /api/convert.
 // Convert with no number such as kg: GET request to /api/convert.
 suite('Functional Tests', function() {
-
+  suite('', function() {
+    test('', function(done) {
+      
+    })
+  })
 });
